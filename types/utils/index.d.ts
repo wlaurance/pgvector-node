@@ -1,2 +1,2 @@
-export function fromSql(value: any): any;
-export function toSql(value: any): string;
+export declare function fromSql(value: string): number[];
+export declare function toSql(value: number[]): string;
